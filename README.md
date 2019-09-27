@@ -1,6 +1,3 @@
-# Map Repository
-Repository for all maps I had made (Source Engine, GoldSource Engine, etc.)
-
 # Total Count
 
 Garry's Mod Maps - **24**
@@ -20,3 +17,9 @@ Half-Life 1 - **1**
 - Counter-Strike: Source
 
 - Half-Life 1
+
+# Required Engines
+
+- GoldSource
+
+- Source
