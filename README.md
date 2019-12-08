@@ -8,6 +8,8 @@
 
 - Half-Life 1
 
+- Half-Life 2
+
 # Required Engines
 
 - GoldSource
