@@ -2,4 +2,4 @@
 
 This repository contains my maps made in Valve Hammer Editor. These maps are designed for specific games, so they won't work on other platforms/engines. You can freely edit them, but don't forget to leave credit.
 
-All maps are categorized. Check folder names for the game the maps require.
+All maps are categorized. 
