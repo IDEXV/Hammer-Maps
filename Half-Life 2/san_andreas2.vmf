@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "181"
+	"mapversion" "184"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "181"
+	"mapversion" "184"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -43568,7 +43568,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "1024"
+	"spawnflags" "0"
 	"spawnpos" "0"
 	"speed" "30"
 	"targetname" "Engineering_Blast_Door"
@@ -46733,7 +46733,7 @@ entity
 	"additionalequipment" "weapon_shotgun"
 	"AlternateAiming" "1"
 	"AlwaysTransition" "No"
-	"ammoamount" "1"
+	"ammoamount" "30"
 	"ammosupply" "Buckshot"
 	"angles" "0 195 0"
 	"citizentype" "3"
@@ -46770,7 +46770,7 @@ entity
 	"additionalequipment" "weapon_ar2"
 	"AlternateAiming" "1"
 	"AlwaysTransition" "No"
-	"ammoamount" "1"
+	"ammoamount" "60"
 	"ammosupply" "AR2"
 	"angles" "0 75 0"
 	"citizentype" "3"

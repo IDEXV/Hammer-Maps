@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "185"
+	"mapversion" "186"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "185"
+	"mapversion" "186"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -27636,8 +27636,8 @@ entity
 	"additionalequipment" "weapon_shotgun"
 	"AlternateAiming" "1"
 	"AlwaysTransition" "No"
-	"ammoamount" "1"
-	"ammosupply" "SMG1"
+	"ammoamount" "60"
+	"ammosupply" "AR2"
 	"angles" "0 330 0"
 	"citizentype" "3"
 	"DontPickupWeapons" "1"
@@ -29272,8 +29272,8 @@ entity
 	"additionalequipment" "weapon_357"
 	"AlternateAiming" "1"
 	"AlwaysTransition" "No"
-	"ammoamount" "1"
-	"ammosupply" "SMG1"
+	"ammoamount" "30"
+	"ammosupply" "Buckshot"
 	"angles" "0 255 0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
