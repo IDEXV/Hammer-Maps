@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "186"
+	"mapversion" "189"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "186"
+	"mapversion" "189"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -26687,7 +26687,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas123"
+	"spawnflags" "48"
 	"targetname" "Briefing_Sound"
 	"origin" "-585 351 9"
 	editor
@@ -27790,7 +27791,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "Storming_Sound"
 	"origin" "-1428.41 -231.289 9"
 	editor
@@ -28544,7 +28546,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "Computer_Destroyer"
 	"origin" "-1385.08 238.376 9"
 	editor
@@ -28741,7 +28744,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "kill_1"
 	"origin" "-1239.55 -155.628 9"
 	editor
@@ -28762,7 +28766,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "kill_2"
 	"origin" "-1216.39 -155.584 9"
 	editor
@@ -28783,7 +28788,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "kill_3"
 	"origin" "-1191.97 -147.523 9"
 	editor
@@ -29976,7 +29982,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "Narkerkas_Sound"
 	"origin" "-1807.71 700.947 9"
 	editor
@@ -30114,7 +30121,8 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "Lets_Get_Out"
 	"origin" "-1793.71 680.174 9"
 	editor
@@ -31647,12 +31655,13 @@ entity
 {
 	"id" "7312"
 	"classname" "ambient_generic"
-	"health" "10"
+	"health" "8"
 	"message" "voice/finalization.wav"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "49"
+	"SourceEntityName" "Maximkerkas124"
+	"spawnflags" "48"
 	"targetname" "Finalization_Sound"
 	"origin" "-1783.46 876.415 9"
 	editor
@@ -33445,17 +33454,35 @@ entity
 entity
 {
 	"id" "9205"
-	"classname" "prop_static"
+	"classname" "prop_dynamic_override"
 	"angles" "0 210 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/combine_apc.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
+	"viewhideflags" "0"
 	"origin" "-1736 1901 -49"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 500]"
@@ -33464,17 +33491,35 @@ entity
 entity
 {
 	"id" "9240"
-	"classname" "prop_static"
+	"classname" "prop_dynamic_override"
 	"angles" "0 165 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/combine_apc.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
+	"viewhideflags" "0"
 	"origin" "-1743 2265 -49"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 500]"
@@ -34441,10 +34486,10 @@ entity
 	"vehiclescript" "scripts/vehicles/jeep_test.txt"
 	connections
 	{
-		"OnPlayerUse" "Escape_Sound,PlaySound,,0,-1"
+		"OnPlayerUse" "Escape_Sound,PlaySound,,0,1"
 		"OnPlayerUse" "Last_Stand_Ivan,BeginSequence,,0,-1"
 		"OnPlayerUse" "Last_Stand_Maxim,BeginSequence,,0,-1"
-		"OnPlayerUse" "Objective_6,Display,,0,-1"
+		"OnPlayerUse" "Objective_6,Display,,0,1"
 	}
 	editor
 	{
