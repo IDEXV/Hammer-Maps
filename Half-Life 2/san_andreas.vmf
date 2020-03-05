@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "178"
+	"mapversion" "184"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "178"
+	"mapversion" "184"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -27706,12 +27706,12 @@ entity
 entity
 {
 	"id" "3094"
-	"classname" "weapon_smg1"
+	"classname" "item_ammo_ar2_large"
+	"AmmoMultiplier" "1.0"
 	"angles" "0 0 -90"
+	"disableshadows" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"origin" "-1379 -167 48.9035"
 	editor
 	{
@@ -27724,7 +27724,7 @@ entity
 entity
 {
 	"id" "3106"
-	"classname" "item_ammo_smg1_large"
+	"classname" "item_ammo_ar2_large"
 	"AmmoMultiplier" "1.0"
 	"angles" "0 0 0"
 	"fademindist" "-1"
@@ -27741,12 +27741,19 @@ entity
 entity
 {
 	"id" "3112"
-	"classname" "item_ammo_smg1_large"
-	"AmmoMultiplier" "1.0"
-	"angles" "0 0 0"
+	"classname" "weapon_ar2"
+	"angles" "0 315 0"
+	"disablereceiveshadows" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "-1398 -165 40.5355"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetAmmo1" "0"
+	"SetAmmo2" "0"
+	"viewhideflags" "0"
+	"origin" "-1406 -163 45"
 	editor
 	{
 		"color" "0 0 200"
@@ -27914,30 +27921,6 @@ entity
 }
 entity
 {
-	"id" "3225"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 210 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1115 -158 1"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "3240"
 	"classname" "npc_metropolice"
 	"additionalequipment" "weapon_smg1"
@@ -27952,30 +27935,6 @@ entity
 	"spawnflags" "516"
 	"waitingtorappel" "No"
 	"origin" "-1112 -235 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
-	"id" "3246"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 45 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1214 -251 7.62939e-006"
 	editor
 	{
 		"color" "0 200 200"
@@ -28135,30 +28094,6 @@ entity
 }
 entity
 {
-	"id" "3605"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 270 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1175 169 0.463753"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "3607"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -28216,34 +28151,6 @@ entity
 	"spawnflags" "516"
 	"waitingtorappel" "No"
 	"origin" "-1229.04 307.169 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
-	"id" "3629"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 270 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	connections
-	{
-		"OnDeath" "kill_2,PlaySound,,0,-1"
-	}
-	"origin" "-1153 266 0"
 	editor
 	{
 		"color" "0 200 200"
@@ -28927,30 +28834,6 @@ entity
 }
 entity
 {
-	"id" "5063"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 0 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1572 550 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "5077"
 	"classname" "prop_static"
 	"angles" "0 315 0"
@@ -29041,30 +28924,6 @@ entity
 }
 entity
 {
-	"id" "5133"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1684.64 510.528 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "5135"
 	"classname" "npc_metropolice"
 	"additionalequipment" "weapon_smg1"
@@ -29117,30 +28976,6 @@ entity
 }
 entity
 {
-	"id" "5139"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1799 549 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "5143"
 	"classname" "npc_metropolice"
 	"additionalequipment" "weapon_smg1"
@@ -29183,30 +29018,6 @@ entity
 	"spawnflags" "516"
 	"waitingtorappel" "No"
 	"origin" "-1893.8 599.297 7.62939e-006"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
-	"id" "5197"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 315 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1828 667 0"
 	editor
 	{
 		"color" "0 200 200"
@@ -29432,30 +29243,6 @@ entity
 }
 entity
 {
-	"id" "5714"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 0 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1948 732 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "5720"
 	"classname" "npc_metropolice"
 	"additionalequipment" "weapon_smg1"
@@ -29470,30 +29257,6 @@ entity
 	"spawnflags" "516"
 	"waitingtorappel" "No"
 	"origin" "-1644 741 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
-	"id" "5728"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1800 769 0"
 	editor
 	{
 		"color" "0 200 200"
@@ -30624,30 +30387,6 @@ entity
 }
 entity
 {
-	"id" "6368"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 330 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/police.mdl"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1605.95 482.818 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -9768]"
-	}
-}
-entity
-{
 	"id" "6385"
 	"classname" "info_node"
 	"angles" "0 0 0"
@@ -31550,34 +31289,6 @@ entity
 }
 entity
 {
-	"id" "7181"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 300 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetAlternateCapable" "1"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"tacticalvariant" "1"
-	"UnderthrowGrenades" "1"
-	"waitingtorappel" "No"
-	"origin" "-2114.22 828.37 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 7000]"
-	}
-}
-entity
-{
 	"id" "7196"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_ar2"
@@ -31662,34 +31373,6 @@ entity
 }
 entity
 {
-	"id" "7214"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 285 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetAlternateCapable" "1"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"tacticalvariant" "1"
-	"UnderthrowGrenades" "1"
-	"waitingtorappel" "No"
-	"origin" "-2195.71 1064.51 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 7000]"
-	}
-}
-entity
-{
 	"id" "7216"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_ar2"
@@ -31708,34 +31391,6 @@ entity
 	"UnderthrowGrenades" "1"
 	"waitingtorappel" "No"
 	"origin" "-2190.84 1182.94 -7.62939e-006"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 7000]"
-	}
-}
-entity
-{
-	"id" "7222"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 210 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetAlternateCapable" "1"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"tacticalvariant" "1"
-	"UnderthrowGrenades" "1"
-	"waitingtorappel" "No"
-	"origin" "-1984 1128 0"
 	editor
 	{
 		"color" "0 200 200"
@@ -36044,51 +35699,15 @@ entity
 {
 	"id" "10477"
 	"classname" "info_node"
+	"angles" "0 90 0"
 	"nodeid" "68"
-	"origin" "-1663.09 1305.25 1.00001"
+	"origin" "-1663 1311 1.00001"
 	editor
 	{
 		"color" "232 219 8"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -9268]"
-	}
-}
-entity
-{
-	"id" "10479"
-	"classname" "info_node_hint"
-	"angles" "0 0 0"
-	"hinttype" "901"
-	"IgnoreFacing" "2"
-	"MaximumState" "3"
-	"MinimumState" "1"
-	"nodeFOV" "180"
-	"nodeid" "69"
-	"spawnflags" "65536"
-	"TargetNode" "70"
-	"origin" "-1664 1399 -8"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -8768]"
-	}
-}
-entity
-{
-	"id" "10485"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "70"
-	"origin" "-1664 1399 -43"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -8268]"
 	}
 }
 entity
@@ -37320,6 +36939,65 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -8268]"
+	}
+}
+entity
+{
+	"id" "15015"
+	"classname" "info_node_hint"
+	"angles" "0 90 0"
+	"hinttype" "901"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "360"
+	"nodeid" "116"
+	"spawnflags" "65536"
+	"TargetNode" "-1"
+	"origin" "-1663 1343 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15021"
+	"classname" "info_node_hint"
+	"angles" "0 90 0"
+	"hinttype" "901"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "360"
+	"nodeid" "117"
+	"spawnflags" "65536"
+	"TargetNode" "-1"
+	"origin" "-1663 1387 -49"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "15039"
+	"classname" "info_node"
+	"angles" "0 90 0"
+	"nodeid" "118"
+	"origin" "-1663 1419 -49"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
