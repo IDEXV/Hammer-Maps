@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "173"
+	"mapversion" "182"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "173"
+	"mapversion" "182"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -62670,6 +62670,685 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 14500]"
+	}
+}
+entity
+{
+	"id" "22156"
+	"classname" "prop_static"
+	"angles" "0 15 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-614 411 60.4649"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "22160"
+	"classname" "prop_static"
+	"angles" "0 330 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-609.406 411.096 20.2271"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "22164"
+	"classname" "item_item_crate"
+	"angles" "0 60 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-589 444 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22166"
+	"classname" "item_item_crate"
+	"angles" "0 60 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-619 461 24.8438"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22168"
+	"classname" "item_item_crate"
+	"angles" "0 30 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-621 463 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22228"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-344 169 20.2868"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22280"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-344 237 20.2868"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22296"
+	"classname" "prop_static"
+	"angles" "0 150 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-348 208 60.7642"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22318"
+	"classname" "item_item_crate"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-350.07 293 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22340"
+	"classname" "item_item_crate"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-348 210 81.2363"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22389"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-344 155 60.7046"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22415"
+	"classname" "item_item_crate"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-348.174 252.443 40.7588"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22425"
+	"classname" "prop_static"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/pushcart01a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-175.586 478.172 34.1288"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "22429"
+	"classname" "item_item_crate"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-177 481 18.5663"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22431"
+	"classname" "item_item_crate"
+	"angles" "0 15 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-177 478.172 43.1288"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22461"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/pushcart01a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-262 487 34.1288"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "22481"
+	"classname" "prop_static"
+	"angles" "0 150 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-262 482 38"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22505"
+	"classname" "prop_static"
+	"angles" "0 105 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-262 482 78.2378"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22633"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-341 93 20.2868"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22747"
+	"classname" "item_item_crate"
+	"angles" "0 300 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-340 105 80.9966"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22781"
+	"classname" "prop_static"
+	"angles" "0 15 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/pushcart01a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-440 -95 34.1288"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "22853"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-341 93 60.7642"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "22951"
+	"classname" "item_item_crate"
+	"angles" "0 330 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-440 -92 43"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22953"
+	"classname" "item_item_crate"
+	"angles" "0 300 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-440 -91 18.4375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24252"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-341 25 20.2867"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24256"
+	"classname" "prop_static"
+	"angles" "0 150 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-346 26 60.7641"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24292"
+	"classname" "prop_static"
+	"angles" "0 195 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-345 -36 20.2271"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24314"
+	"classname" "item_item_crate"
+	"angles" "0 300 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-343 46 81.0562"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24320"
+	"classname" "item_item_crate"
+	"angles" "0 300 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-343.772 -34.9338 40.5191"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24322"
+	"classname" "item_item_crate"
+	"angles" "0 225 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-388 -40 0.281242"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24334"
+	"classname" "item_item_crate"
+	"angles" "0 345 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"model" "models/items/item_item_crate.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "256"
+	"origin" "-390 -37 24.8437"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
 	}
 }
 cameras
