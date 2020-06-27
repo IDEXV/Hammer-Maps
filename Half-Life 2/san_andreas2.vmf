@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "184"
+	"mapversion" "188"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "184"
+	"mapversion" "188"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -33423,6 +33423,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"spawnflags" "1"
 	"origin" "169 174 65.0165"
 	editor
 	{
@@ -38361,6 +38362,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 90 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -38694,6 +38696,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 150 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -38727,6 +38730,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 180 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -38909,6 +38913,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 270 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -39886,6 +39891,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 270 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -39919,6 +39925,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 0 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -39952,6 +39959,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 270 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -39985,6 +39993,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 90 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -40018,6 +40027,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "SMG1"
 	"angles" "0 225 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "Random"
@@ -41604,6 +41614,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "Buckshot"
 	"angles" "0 90 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "3"
@@ -41639,6 +41650,7 @@ entity
 	"ammoamount" "1"
 	"ammosupply" "AR2"
 	"angles" "0 90 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "3"
@@ -42145,31 +42157,12 @@ entity
 }
 entity
 {
-	"id" "10808"
-	"classname" "prop_static"
-	"angles" "0 315 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1364 -1362 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
 	"id" "10888"
 	"classname" "prop_ragdoll"
 	"angles" "-37.7612 206.565 50.7685"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/humans/group03/male_07_bloody.mdl"
+	"model" "models/humans/group03/female_03_bloody.mdl"
 	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -42246,6 +42239,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 180 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42263,31 +42257,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "10924"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 165 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1318.73 -1376.53 65"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15268]"
 	}
 }
 entity
@@ -42338,35 +42307,11 @@ entity
 }
 entity
 {
-	"id" "11166"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 180 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1200.1 -1367.17 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11168"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 180 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42392,6 +42337,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 180 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42403,100 +42349,6 @@ entity
 	"spawnflags" "516"
 	"waitingtorappel" "No"
 	"origin" "-1015.81 -1366.74 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11176"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-906 -1352 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11190"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 180 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-868.918 -1388.65 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11192"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 180 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-868.901 -1316.58 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11194"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 180 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-816.036 -1347.23 64"
 	editor
 	{
 		"color" "0 200 200"
@@ -42530,6 +42382,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 120 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42551,60 +42404,11 @@ entity
 }
 entity
 {
-	"id" "11220"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 120 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-863.563 -1481.81 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11222"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 120 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-851.95 -1601.67 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11224"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 120 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42645,35 +42449,11 @@ entity
 }
 entity
 {
-	"id" "11244"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 60 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-857.154 -1706.84 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11248"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 120 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42695,48 +42475,11 @@ entity
 }
 entity
 {
-	"id" "11259"
-	"classname" "prop_static"
-	"angles" "0 150 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1129.36 -1727.77 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11273"
-	"classname" "prop_static"
-	"angles" "0 195 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-946 -1724 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
 	"id" "11287"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 120 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42758,85 +42501,11 @@ entity
 }
 entity
 {
-	"id" "11289"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 150 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-996.917 -1700.94 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11297"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 60 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1088 -1732 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11305"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1149.12 -1696.28 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11311"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42858,54 +42527,11 @@ entity
 }
 entity
 {
-	"id" "11317"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1311 -1728 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11331"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1345.46 -1690.65 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11333"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -42923,82 +42549,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11375"
-	"classname" "prop_static"
-	"angles" "0 210 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1495 -1722 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11395"
-	"classname" "prop_static"
-	"angles" "0 150 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1713 -1722 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11411"
-	"classname" "prop_static"
-	"angles" "0 75 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1856 -1639 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
-	"id" "11427"
-	"classname" "prop_static"
-	"angles" "0 120 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1855 -1383 64.4638"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
 	}
 }
 entity
@@ -43022,60 +42572,11 @@ entity
 }
 entity
 {
-	"id" "11457"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1424.15 -1693.52 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "11459"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1565.45 -1706.49 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11461"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43097,35 +42598,11 @@ entity
 }
 entity
 {
-	"id" "11463"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1644.01 -1741.85 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11465"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43151,6 +42628,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43172,35 +42650,11 @@ entity
 }
 entity
 {
-	"id" "11469"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1863.67 -1708.71 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11471"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43226,6 +42680,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43247,35 +42702,11 @@ entity
 }
 entity
 {
-	"id" "11475"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1835.19 -1317.84 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11477"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43297,35 +42728,11 @@ entity
 }
 entity
 {
-	"id" "11479"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-1866.87 -1465.03 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "11481"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 135 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43351,6 +42758,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 45 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -43376,6 +42784,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_shotgun"
 	"angles" "0 90 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_super_soldier.mdl"
 	"NumGrenades" "5"
@@ -44067,7 +43476,7 @@ entity
 {
 	"id" "12803"
 	"classname" "prop_ragdoll"
-	"angles" "-37.7612 206.565 50.7685"
+	"angles" "-29.3355 158.164 -104.302"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/humans/group03/male_07_bloody.mdl"
@@ -44076,7 +43485,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"spawnflags" "4"
-	"origin" "-1639.78 -1731.51 91.4654"
+	"origin" "-1639.78 -1682 135"
 	editor
 	{
 		"color" "220 30 220"
@@ -46030,28 +45439,6 @@ entity
 }
 entity
 {
-	"id" "14435"
-	"classname" "prop_ragdoll"
-	"angles" "-37.7612 206.565 50.7685"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/combine_soldier.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"spawnflags" "4"
-	"origin" "-3009.63 -946.028 89.9476"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 11000]"
-	}
-}
-entity
-{
 	"id" "14439"
 	"classname" "info_overlay"
 	"BasisNormal" "0 0 1"
@@ -46607,25 +45994,6 @@ entity
 }
 entity
 {
-	"id" "15373"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/concrete_barrier001a.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3252 -978 64.4637"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 15000]"
-	}
-}
-entity
-{
 	"id" "15399"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -46736,6 +46104,7 @@ entity
 	"ammoamount" "30"
 	"ammosupply" "Buckshot"
 	"angles" "0 195 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "3"
@@ -46773,6 +46142,7 @@ entity
 	"ammoamount" "60"
 	"ammosupply" "AR2"
 	"angles" "0 75 0"
+	"BaseSpeedModifier" "1.0"
 	"citizentype" "3"
 	"DontPickupWeapons" "No"
 	"expressiontype" "3"
@@ -47608,6 +46978,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47629,35 +47000,11 @@ entity
 }
 entity
 {
-	"id" "16235"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3613.26 -790.283 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16237"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47679,35 +47026,11 @@ entity
 }
 entity
 {
-	"id" "16239"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3613.63 -683.509 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16241"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47733,6 +47056,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47754,35 +47078,11 @@ entity
 }
 entity
 {
-	"id" "16245"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3678.4 -324.916 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16247"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47808,6 +47108,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 345 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -47825,230 +47126,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16251"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3688.66 -173.116 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16253"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3687.5 -229.119 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16255"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3606.38 -174.471 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16257"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3610.11 -238.573 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16259"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3656.38 -414.175 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16261"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3647.65 -501.409 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16263"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3647.78 -636.255 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16265"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 345 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3705.45 -752.802 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16394"
-	"classname" "prop_dynamic_override"
-	"angles" "0 210 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/combine_apc.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3719 374 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -4768]"
 	}
 }
 entity
@@ -49311,160 +48388,11 @@ entity
 }
 entity
 {
-	"id" "16946"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3649.8 -104.421 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16952"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3744.28 -41.2682 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16954"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3540.46 23.7832 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16956"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3510.15 -80.2087 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16958"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3761.17 87.3483 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16960"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3753.32 209.452 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16962"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49486,35 +48414,11 @@ entity
 }
 entity
 {
-	"id" "16966"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3555.93 328.934 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16968"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49536,35 +48440,11 @@ entity
 }
 entity
 {
-	"id" "16970"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3526.36 481.908 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16972"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49586,60 +48466,11 @@ entity
 }
 entity
 {
-	"id" "16974"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3694.56 524.514 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16976"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3734.42 683.229 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16978"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49661,60 +48492,11 @@ entity
 }
 entity
 {
-	"id" "16980"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3733.27 893.306 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
-	"id" "16982"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 255 0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "-3677.92 799.894 64"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -15768]"
-	}
-}
-entity
-{
 	"id" "16984"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49740,6 +48522,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
@@ -49765,6 +48548,7 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_ar2"
 	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
 	"FriendlyFireOverride" "2"
 	"model" "models/combine_super_soldier.mdl"
 	"NumGrenades" "5"
@@ -51087,6 +49871,73 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 14000]"
+	}
+}
+entity
+{
+	"id" "16946"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
+	"FriendlyFireOverride" "2"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetProficiencyOverride" "-1"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "-3649.8 -104.421 64"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -15768]"
+	}
+}
+entity
+{
+	"id" "23475"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 255 0"
+	"BaseSpeedModifier" "1.0"
+	"FriendlyFireOverride" "2"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetProficiencyOverride" "-1"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "-3591.81 11.5802 64"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -15768]"
+	}
+}
+entity
+{
+	"id" "23481"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "93"
+	"origin" "-3721.48 368.955 64"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4000]"
 	}
 }
 cameras
